@@ -10,8 +10,7 @@ W katalogu **python** znajdują się moje iteracje z przed 30.08 i nowsza wersja
 
 * Wersja 30082026 - nowsza wersja ma przyspieszony algorytm generowania i preprocesingu chmury punktów. Została stworzona do szybkiego eksportu przysłonionej chmury punktów do kodu od promotora. Nie obsługuje starego algorytmu generowania hologramów.
 * Wersja 29082026 - stara wersja kodu z algorytmem rasteryzującym i przysłaniającym punkty. Obsługuje stary algorytm generowania hologramów.
-
-W katalogu **wyniki** znajdują się wyeksportowane chmury punktów, wizualizacje chmur punktów, hologramów i rekonstrukcji.
+* W katalogu **wyniki** znajdują się wyeksportowane chmury punktów, wizualizacje chmur punktów, hologramów i rekonstrukcji.
 
 
 
