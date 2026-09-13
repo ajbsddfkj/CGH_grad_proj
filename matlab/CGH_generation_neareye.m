@@ -40,14 +40,14 @@ nazwy = {'multiplex1.bmp', 'multiplex2.bmp','multiplex3.bmp','multiplex4.bmp','m
 
 
 rot = [0  0  0;  % Vertex 1
-       4  0  0;  % Vertex 2
-       0  4  0;  % Vertex 3
-       4  4  0;  % Vertex 4
-       -4  0  0;  % Vertex 5
-       0  -4  0;  % Vertex 6
-       -4  -4  0;  % Vertex 7
-       -4  4  0;  % Vertex 8
-       4  -4  0];  % Vertex 9
+       2  0  0;  % Vertex 2
+       0  2  0;  % Vertex 3
+       2  2  0;  % Vertex 4
+       -2  0  0;  % Vertex 5
+       0  -2  0;  % Vertex 6
+       -2  -2  0;  % Vertex 7
+       -2  2  0;  % Vertex 8
+       2  -2  0];  % Vertex 9
 
 count = 0;
 
@@ -61,7 +61,7 @@ for i = 1:9
     end
     
     % read and preprocess cloud - ZMIEN NAZWE
-    A=(pcread('zmienNazwe_gpu_z_amplituda.ply'));
+    A=(pcread('salveI_gpu_kolor.ply'));
     
     % show cloud
     %pcshow(A.Location,A.Color);
@@ -128,10 +128,10 @@ for i = 1:9
     % view(3); % Ustawia domyślny, czytelny widok 3D
     % hold off;
     
-    %pcshow(Loc_rot,A.Color);
+    pcshow(Loc_rot,A.Color);
     
     % show cloud no color
-    pcshow(Loc_rot);
+    % pcshow(Loc_rot);
     
     % Ustawienie kamery: view(azymut, elewacja) w stopniach
     view(45, -90);
@@ -143,7 +143,7 @@ for i = 1:9
     c = single([A.Color(:,1),A.Color(:,2),A.Color(:,3)]);
     
     % no color
-    %c = ones(length(xo), 1, 'single');
+    % c = ones(length(xo), 1, 'single');
     
     xomax = (max(max(abs(xo))));
     yomax = (max(max(abs(yo))));
