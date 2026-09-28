@@ -3,6 +3,7 @@
 To jest repozytorium bazy kodu oraz plików źródłowych do mojej pracy inżynierskiej.
 
 ### Struktura
+___
 
 #### Update z dnia 26.09
 W katalogu Python dodano dwa pliki "Eta2_sandbox_edit12092026.ipynb" i "slave1_sandbox_edit12092026.ipynb" odpowiadające algorytmom usuwania punktów dla modeli Interceptor i Slave I. 
